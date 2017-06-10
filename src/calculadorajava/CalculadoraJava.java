@@ -15,7 +15,15 @@ public class CalculadoraJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Soma sm;
+       sm = new Soma();
+    
+       sm.A = 2;
+       sm.B = 2;
+       
+       sm.total = sm.A + sm.B;
+       
+        System.out.println(sm.total);
     }
     
 }
